@@ -1,18 +1,23 @@
-## Getting Started
+# 📊 Calculadora de Médias Estudantis
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples em Java desenvolvido para praticar a manipulação de coleções e o uso da Stream API.
 
-## Folder Structure
+## 🚀 Funcionalidades
+- Leitura de quantidade variável de alunos e notas.
+- Armazenamento em listas dinâmicas (`ArrayList`).
+- Cálculo de média utilizando **Streams** e **Expressões Lambda**.
 
-The workspace contains two folders by default, where:
+## 🛠️ Tecnologias Utilizadas
+- **Java**: Versão 24(OpenJDK)
+- **Stream API**: Para processamento eficiente de dados.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📖 O que eu aprendi neste projeto
+Neste exercício, foquei em aprender:
+1. Como utilizar o método `.reduce()` para processar listas.
+2. A importância da segurança de tipos com **Generics**.
+3. Como formatar saídas numéricas no console.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🔧 Como rodar o projeto
+1. Clone o repositório.
+2. Compile o arquivo: `javac App.java`
+3. Execute: `java App`
